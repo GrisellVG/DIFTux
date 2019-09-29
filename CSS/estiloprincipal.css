@@ -143,3 +143,12 @@ footer>p
 {
   background-color: rgb(186, 182, 182);
 }
+table .alto {
+	background-color: rgb(255, 0, 130);
+}
+table .medio {
+	background-color: rgb(255, 255, 255);
+}
+table .bajo {
+	background-color: rgba(44, 182, 201, 1);
+}
