@@ -3,33 +3,32 @@
   <head>
     <meta charset="utf-8">
     <title>DIF Tuxtepec</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, user-scalable=no, inicial-scale=1, maximum-scale=1, minimum-scale=1">
     <link rel="stylesheet" href="CSS/estiloprincipal.css">
     <link rel="stylesheet" href="CSS/galeria.css">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-    <script> if (window.screen.availWidth == 80)window.parent.document.body.style.zomm="75%"; if (window.screen.availWidth == 640) window.parent.document.body.style.zoom="60%"</script>
-  </head>
+    <link rel="stylesheet" href="CSS/tabla.css">
+    <link rel="stylesheet" href="CSS/fontello.css">
+    </head>
   <body>
     <header>
     <img class="logo-left" src="imagenes/DIF2.png" alt="">
-    <nav>
-    <ul class="derecha">
-    <li><a class="" href="index.html">Inicio</a></li>
-    <li><a class="" href="servicios.html">Servicios</a></li>
-    <li><a class="botonredes" href=""><img  src="imagenes/facebook.png" alt="Facebook"></a></li>
-    </ul>
-    </nav>
+    <div class="contenedor derecha">
+        <input type="checkbox" id="menu-bar">
+        <label class="fontawesome-align-justify" for="menu-bar"></label>
+                <nav class="menu">
+                    <a href="index.html">Inicio</a>
+                    <a href="Servicios.html">Servicios</a>
+                      <a class="botonredes" href=""><img  src="imagenes/facebook.png" alt="Facebook"></a>
   </header>
-  <section>
-      <table id="cero" width="1680" height="600" border="0">
-        <tr>
-          <td width="500" height="500" align="center" >
+  <div class="table-container">
+        <table class="table-rwd">
+          <tr>
+            <th width="500" height="500" align="center">
             <div class="sombra">
-              <img src="imagenes/Tuxtepec2.png" width="400" height="450" align="center">
-            </td>
+            <img src="imagenes/Tuxtepec2.png" width="400" height="450" align="center"></th>
           </div>
-          <td width="500" height="500" align="center" >
-            <div style="overflow:auto; width:500px; height:500px" >
+            <th width="500" height="500" align="center">
+              <div style="overflow:auto" >
               <font color="White">
                 <h1>Conócenos</h1>
                 <h2> DIF Tuxtepec</h2>
@@ -45,12 +44,10 @@
                 </p>
               </font>
             </div>
-          </td>
-        </tr>
-      </table>
-  </section>
-
-
+          </th>
+          </tr>
+        </table>
+      </div>
 <br>
 <br>
 <br>
